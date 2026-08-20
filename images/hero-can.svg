@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" role="img" aria-labelledby="heroCanTitle">
+  <title id="heroCanTitle">A cold, glossy can of Pepsi</title>
+  <defs>
+    <linearGradient id="hsilver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#98a6b2"/>
+      <stop offset="0.18" stop-color="#edf2f6"/>
+      <stop offset="0.42" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#d6dde5"/>
+      <stop offset="1" stop-color="#8a97a3"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="548" rx="90" ry="15" fill="#001a3e" opacity="0.35"/>
+  <rect x="62" y="70" width="176" height="438" rx="26" fill="url(#hsilver)"/>
+  <rect x="62" y="70" width="176" height="34" fill="#e7edf3"/>
+  <ellipse cx="150" cy="72" rx="88" ry="30" fill="#f6f9fc"/>
+  <ellipse cx="150" cy="70" rx="88" ry="30" fill="#fdfefe"/>
+  <ellipse cx="150" cy="70" rx="70" ry="22" fill="#cdd8e0"/>
+  <ellipse cx="130" cy="60" rx="18" ry="6" fill="#ffffff" opacity="0.9"/>
+  <rect x="62" y="150" width="176" height="320" fill="#004b93"/>
+  <circle cx="150" cy="345" r="74" fill="#ffffff"/>
+  <circle cx="150" cy="345" r="74" fill="none" stroke="#004b93" stroke-width="6"/>
+  <path d="M 76 345 A 74 74 0 0 1 224 345 Z" fill="#004b93"/>
+  <path d="M 76 345 A 74 74 0 0 0 224 345 Z" fill="#e32934"/>
+  <path d="M 76 345 C 96 351 110 351 124 344 C 138 337 152 337 170 345 L 170 357 C 152 349 138 349 124 356 C 110 363 96 363 76 357 Z" fill="#ffffff"/>
+  <text x="150" y="212" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="900" letter-spacing="9" fill="#ffffff">PEPSI</text>
+  <text x="150" y="262" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#cfe8ff">THAT'S WHAT I LIKE</text>
+  <path d="M62 468 C 92 426, 152 426, 176 462 C 190 484, 214 470, 238 458 L 238 470 L 62 470 Z" fill="#e32934"/>
+  <rect x="80" y="96" width="14" height="392" rx="7" fill="#ffffff" opacity="0.45"/>
+  <rect x="216" y="120" width="8" height="300" rx="4" fill="#ffffff" opacity="0.18"/>
+  <g fill="#ffffff">
+    <path d="M52 110 l2.5 5.5 5.5 2.5 -5.5 2.5 -2.5 5.5 -2.5 -5.5 -5.5 -2.5 5.5 -2.5 z" opacity="0.9"/>
+    <path d="M247 178 l2 4 4 2 -4 2 -2 4 -2 -4 -4 -2 4 -2 z" opacity="0.7"/>
+    <path d="M38 298 l2 4.5 4.5 2 -4.5 2 -2 4.5 -2 -4.5 -4.5 -2 4.5 -2 z" opacity="0.6"/>
+  </g>
+</svg>

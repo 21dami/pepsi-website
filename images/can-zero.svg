@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" role="img" aria-labelledby="zeroTitle">
+  <title id="zeroTitle">Can of Pepsi Zero Sugar</title>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9aa7b3"/>
+      <stop offset="0.18" stop-color="#eef3f7"/>
+      <stop offset="0.42" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#d7dee6"/>
+      <stop offset="1" stop-color="#8b98a4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="546" rx="88" ry="14" fill="#00255c" opacity="0.3"/>
+  <rect x="62" y="70" width="176" height="436" rx="26" fill="url(#silver)"/>
+  <rect x="62" y="70" width="176" height="34" fill="#e7edf3"/>
+  <ellipse cx="150" cy="72" rx="88" ry="30" fill="#f6f9fc"/>
+  <ellipse cx="150" cy="70" rx="88" ry="30" fill="#fdfefe"/>
+  <ellipse cx="150" cy="70" rx="70" ry="22" fill="#cdd8e0"/>
+  <ellipse cx="130" cy="60" rx="18" ry="6" fill="#ffffff" opacity="0.9"/>
+  <rect x="62" y="150" width="176" height="320" fill="#14181f"/>
+  <circle cx="150" cy="330" r="64" fill="#ffffff"/>
+  <circle cx="150" cy="330" r="64" fill="none" stroke="#004b93" stroke-width="5"/>
+  <path d="M 86 330 A 64 64 0 0 1 214 330 Z" fill="#004b93"/>
+  <path d="M 86 330 A 64 64 0 0 0 214 330 Z" fill="#e32934"/>
+  <path d="M 86 330 C 104 336 118 336 132 329 C 146 322 160 322 178 330 L 178 341 C 160 333 146 333 132 340 C 118 347 104 347 86 341 Z" fill="#ffffff"/>
+  <text x="150" y="212" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="900" letter-spacing="8" fill="#ffffff">PEPSI</text>
+  <text x="150" y="408" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="4" fill="#ffffff">ZERO SUGAR</text>
+  <path d="M62 458 C 92 416, 152 416, 176 452 C 190 474, 214 460, 238 448 L 238 470 L 62 470 Z" fill="#e32934"/>
+  <rect x="80" y="96" width="14" height="392" rx="7" fill="#ffffff" opacity="0.45"/>
+  <rect x="216" y="120" width="8" height="300" rx="4" fill="#ffffff" opacity="0.18"/>
+</svg>

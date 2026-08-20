@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pepsi — bold cola taste, ice-cold fizz and flavors that live loud. Discover Pepsi, Pepsi Zero Sugar, Cherry and Mango." />
+  <meta name="theme-color" content="#004B93" />
+  <title>Pepsi — That's What I Like</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ========== HEADER / NAVIGATION ========== -->
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home">
+        <img src="images/logo.svg" alt="" width="44" height="44" />
+        <span class="brand-name">Pepsi</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#products">Products</a></li>
+        <li><a class="nav-link" href="#promo">Promotions</a></li>
+        <li><a class="nav-link" href="#about">Why Pepsi</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="btn btn-red btn-sm" href="#cta">Get It Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bubbles" aria-hidden="true">
+        <span class="bubble b1"></span>
+        <span class="bubble b2"></span>
+        <span class="bubble b3"></span>
+        <span class="bubble b4"></span>
+        <span class="bubble b5"></span>
+        <span class="bubble b6"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">New look &middot; Same legendary taste</p>
+          <h1 id="hero-title" class="hero-title">That's What<br /><span class="accent">I Like.</span></h1>
+          <p class="hero-text">
+            Bold cola taste, ice-cold fizz and a look that lives loud.
+            Meet the refreshment that never plays it safe.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-red" href="#cta">Get It Now</a>
+            <a class="btn btn-ghost" href="#products">Explore Flavors</a>
+          </div>
+          <dl class="hero-stats">
+            <div class="stat">
+              <dt>1898</dt>
+              <dd>Refreshing since</dd>
+            </div>
+            <div class="stat">
+              <dt>30+</dt>
+              <dd>Flavors worldwide</dd>
+            </div>
+            <div class="stat">
+              <dt>4&deg;C</dt>
+              <dd>The perfect serve</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure class="hero-visual">
+          <div class="hero-halo" aria-hidden="true"></div>
+          <img class="hero-can" src="images/hero-can.svg" alt="A cold, glossy can of Pepsi" width="300" height="600" fetchpriority="high" />
+        </figure>
+      </div>
+
+      <svg class="hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 60 C 240 120 480 0 720 40 C 960 80 1200 20 1440 70 L 1440 120 L 0 120 Z" fill="#E32934"></path>
+      </svg>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>That's what I like &#10022; Ice cold &#10022; Max taste &#10022; Live loud &#10022; Refresh everything &#10022;&nbsp;</span>
+        <span>That's what I like &#10022; Ice cold &#10022; Max taste &#10022; Live loud &#10022; Refresh everything &#10022;&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ========== PRODUCTS ========== -->
+    <section class="products section" id="products" aria-labelledby="products-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">The lineup</p>
+          <h2 id="products-title" class="section-title">Choose Your Flavor</h2>
+          <p class="section-sub">Four icons. One unmistakable bite.</p>
+        </header>
+
+        <div class="product-grid">
+          <article class="product-card reveal p-blue">
+            <img src="images/can-classic.svg" alt="Can of Pepsi Cola" width="240" height="480" loading="lazy" decoding="async" />
+            <span class="pill">Original</span>
+            <h3>Pepsi Cola</h3>
+            <p>The original. Bold, crisp and unmistakably Pepsi.</p>
+            <a class="link-arrow" href="#cta">Taste it <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="product-card reveal p-zero">
+            <img src="images/can-zero.svg" alt="Can of Pepsi Zero Sugar" width="240" height="480" loading="lazy" decoding="async" />
+            <span class="pill">0 Sugar</span>
+            <h3>Pepsi Zero Sugar</h3>
+            <p>All the taste. None of the sugar.</p>
+            <a class="link-arrow" href="#cta">Taste it <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="product-card reveal p-cherry">
+            <img src="images/can-cherry.svg" alt="Can of Pepsi Cherry" width="240" height="480" loading="lazy" decoding="async" />
+            <span class="pill">Fruity</span>
+            <h3>Pepsi Cherry</h3>
+            <p>A burst of cherry that goes boom.</p>
+            <a class="link-arrow" href="#cta">Taste it <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="product-card reveal p-mango">
+            <img src="images/can-mango.svg" alt="Can of Pepsi Mango" width="240" height="480" loading="lazy" decoding="async" />
+            <span class="pill">Tropical</span>
+            <h3>Pepsi Mango</h3>
+            <p>Sun-kissed mango meets classic cola.</p>
+            <a class="link-arrow" href="#cta">Taste it <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROMOTIONAL BANNER ========== -->
+    <section class="promo section" id="promo" aria-labelledby="promo-title">
+      <div class="container">
+        <div class="promo-card reveal">
+          <div class="promo-copy">
+            <p class="eyebrow">Pep &amp; Win 2026</p>
+            <h2 id="promo-title">Win a year of <span class="accent">free Pepsi</span></h2>
+            <p class="promo-text">
+              Every specially marked cap could hide a year of ice-cold Pepsi,
+              exclusive merch and game-day giveaways. Check the code under the cap.
+            </p>
+            <a class="btn btn-red" href="#cta">Check Your Cap</a>
+            <p class="promo-note">No purchase necessary. Terms apply &mdash; see store for details.</p>
+          </div>
+          <div class="promo-visual" aria-hidden="true">
+            <span class="promo-ring ring-1"></span>
+            <span class="promo-ring ring-2"></span>
+            <img src="images/can-mango.svg" alt="" width="200" height="400" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="features section" id="about" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">The Pepsi difference</p>
+          <h2 id="features-title" class="section-title">Why Pepsi Hits Different</h2>
+          <p class="section-sub">Small details. Big refreshment.</p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="21" y="4" width="6" height="26" rx="3"/>
+                <circle cx="24" cy="36" r="8"/>
+                <path d="M24 32v4"/>
+                <path d="M24 40v-2"/>
+              </svg>
+            </span>
+            <h3>Chilled to 4&deg;C</h3>
+            <p>Perfectly served ice cold for maximum fizz in every sip.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M24 6l4.5 9.5L38 17l-7.5 6 2.5 11L24 28l-9 6 2.5-11L10 17l9.5-1.5z"/>
+              </svg>
+            </span>
+            <h3>Bold, Real Taste</h3>
+            <p>Real flavor in every can. Nothing watered down.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M38 10C24 12 10 22 10 34c10 2 22-4 28-24z"/>
+                <path d="M10 34c4-10 14-18 24-20"/>
+              </svg>
+            </span>
+            <h3>100% Recyclable</h3>
+            <p>Aluminium cans built to live again, again and again.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="20" cy="34" r="5"/>
+                <circle cx="30" cy="20" r="7"/>
+                <circle cx="18" cy="13" r="3"/>
+              </svg>
+            </span>
+            <h3>Endless Fizz</h3>
+            <p>A crisp carbonated kick that keeps coming back.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta section" id="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title" class="cta-title">Ready for a Cold One?</h2>
+        <p class="cta-text">Find Pepsi near you and never drink lukewarm again.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="#contact">Find a Store</a>
+          <a class="btn btn-ghost" href="#products">See All Flavors</a>
+        </div>
+        <form class="newsletter" action="#" method="post">
+          <label for="email" class="visually-hidden">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+          <button type="submit" class="btn btn-blue">Get Exclusive Drops</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home">
+          <img src="images/logo.svg" alt="" width="44" height="44" />
+          <span class="brand-name">Pepsi</span>
+        </a>
+        <p>Bold taste. Cold serve. Since 1898.</p>
+        <ul class="social" aria-label="Pepsi on social media">
+          <li>
+            <a href="#" aria-label="Pepsi on Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Pepsi on X">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Pepsi on Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Pepsi on YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="footer-col" aria-label="Products">
+        <h3>Products</h3>
+        <ul>
+          <li><a href="#products">Pepsi Cola</a></li>
+          <li><a href="#products">Zero Sugar</a></li>
+          <li><a href="#products">Cherry</a></li>
+          <li><a href="#products">Mango</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Company">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#promo">Promotions</a></li>
+          <li><a href="#home">Careers</a></li>
+          <li><a href="#home">Sustainability</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Support">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">FAQ</a></li>
+          <li><a href="#home">Store Locator</a></li>
+          <li><a href="#home">Terms &amp; Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 PepsiCo, Inc. Fan-made concept page &mdash; all trademarks belong to their respective owners.</p>
+        <p>Built with only HTML &amp; CSS. No JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

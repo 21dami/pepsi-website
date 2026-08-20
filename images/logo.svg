@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img">
+  <title>Pepsi globe logo</title>
+  <circle cx="50" cy="50" r="46" fill="#ffffff" stroke="#004b93" stroke-width="6"/>
+  <path d="M 4 50 A 46 46 0 0 1 96 50 Z" fill="#004b93"/>
+  <path d="M 4 50 A 46 46 0 0 0 96 50 Z" fill="#e32934"/>
+  <path d="M 4 50 C 22 56 36 56 50 49 C 64 42 78 42 96 50 L 96 61 C 78 53 64 53 50 60 C 36 67 22 67 4 61 Z" fill="#ffffff"/>
+</svg>
